@@ -7,7 +7,7 @@ import os
 from tensorflow.keras.models import load_model
 
 #Loading HaarCascade classifier
-face_cascade = cv2.CascadeClassifier("HaarCascade/haarcascade_frontalface_default.xml")
+face_cascade = cv2.CascadeClassifier("C:/Users/Utcarsh/OneDrive/Desktop/atompy/HaarCascade/haarcascade_frontalface_default.xml")
 
 #Loading the model
 json_file = open("model-siam.json", "r")
