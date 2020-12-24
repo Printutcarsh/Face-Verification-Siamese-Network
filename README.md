@@ -11,7 +11,7 @@ pip install Pillow
 ```
 # Step By Step Implementation Guide
 <ul>
-  <li> The first step is to download all the files in the same folder. </li>
+  <li> The first step is to download all the files in the same folder(except Semantic Segmentation.docx). </li>
   <li> Afterthat as we are focused on faces so we have to first extract faces from the images and store them in a folder.<br>
     For that run face_extract.py in your command prompt and also write the name of the dataset folder in the command prompt like this:-<br>
     <b>python face_extract.py trainset</b>.<br> This will output a folder named Faces which contain folders each containing faces of that person.
@@ -26,3 +26,5 @@ pip install Pillow
 
 ## Direct Prediction
 If you want to just predict on two images, just skip all the steps and download the model-face.json, model-face.h5 and predict.py in the same folder. Then enter the path of the two images in the predict.py code and then run the code. The output will be printed telling whether it is a match or not with the confidence score.
+## How Semantic Segmentation or FCNs are used in Autonomous Vehicles
+Please refer my write up which I have uploaded as Semantic Segmentation.docx for how Semantic Segmentation or FCNs are used in Autonomous Vehicles.
