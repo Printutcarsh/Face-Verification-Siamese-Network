@@ -23,5 +23,6 @@ pip install Pillow
   <li> Finally, we will use this trained model and will apply on two images to compare whether they are of same person or not.
     For this run predict.py.</li>
 </ul>
+
 ## Direct Prediction
-• If you want to just predict on two images, just skip all the steps and download the model-face.json, model-face.h5 and predict.py in the same folder. Then enter the path of the two images in the predict.py code and then run the code. The output will be printed telling whether it is a match or not with the confidence score.
+If you want to just predict on two images, just skip all the steps and download the model-face.json, model-face.h5 and predict.py in the same folder. Then enter the path of the two images in the predict.py code and then run the code. The output will be printed telling whether it is a match or not with the confidence score.
