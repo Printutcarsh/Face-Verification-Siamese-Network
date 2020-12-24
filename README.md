@@ -1,5 +1,14 @@
 # Face-Verification-Siamese-Network
 A Face Verification Siamese Network implemented using Keras.
+## Installation
+• Make sure that you have Python 3.6 in your system.<br>
+• Now we need to install the essentials using the command :
+```
+pip install opencv-contrib-python
+pip install pathlib
+pip install tensorflow
+pip install Pillow
+```
 # Step By Step Implementation Guide
 <ul>
   <li> The first step is to download all the files in the same folder </li>
@@ -10,8 +19,8 @@ A Face Verification Siamese Network implemented using Keras.
   <li> Then we have to process the data and have to make image pairs and its corresponding label and save them.<br>
     For this run data_preprocessing.py. This will output x.npy and y.npy which will be used for training the model.</li>
   <li> Next, the model is custom built using Keras and it is trained using the preprocessed data.<br>
-    For this run model-train.py. This will output the model and its weight naming model-siam.json and model-siam.h5.</li>
-  <li> Finally, we will use this trained model and will apply on two images two compare whether they are of same person or not.
+    For this run model_train.py. This will output the model and its weight naming model-siam.json and model-siam.h5.</li>
+  <li> Finally, we will use this trained model and will apply on two images to compare whether they are of same person or not.
     For this run predict.py.</li>
   <li>If you want to just predict on two images, just skip all the steps and download the model-face.json, model-face.h5 and predict.py in the same folder.
     Then enter the path of the two images in the predict.py code and then run the code. The output will be printed telling whether it is a match or not with the confidence score.</li>
