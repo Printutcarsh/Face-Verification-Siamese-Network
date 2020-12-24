@@ -4,13 +4,13 @@ A Face Verification Siamese Network implemented using Keras.
 <ul>
   <li> The first step is to download all the files in the same folder </li>
   <li> Afterthat as we are focused on faces so we have to first extract faces from the images and store them in a folder.<br>
-    For that run face_extract.py in your command prompt and also write the name of the dataset folder in the dataset like this:-
+    For that run face_extract.py in your command prompt and also write the name of the dataset folder in the command prompt like this:-<br>
     <b>python face_extract.py trainset</b>. This will output a folder named Faces which contains folders each containing faces of that person.
   </li>
   <li> Then we have to process the data and have to make image pairs and its corresponding label and save them.<br>
-    For this run data_preprocessing.py. This will output X.npy and Y.npy which will be used for training the model.</li>
+    For this run data_preprocessing.py. This will output x.npy and y.npy which will be used for training the model.</li>
   <li> Next, the model is custom built using Keras and it is trained using the preprocessed data.<br>
-    For this run model-train.py. This will output the model and its weight naming model-face.json and model-face.h5.</li>
+    For this run model-train.py. This will output the model and its weight naming model-siam.json and model-siam.h5.</li>
   <li> Finally, we will use this trained model and will apply on two images two compare whether they are of same person or not.
     For this run predict.py.</li>
   <li>If you want to just predict on two images, just skip all the steps and download the model-face.json, model-face.h5 and predict.py in the same folder.
