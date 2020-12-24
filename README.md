@@ -25,6 +25,6 @@ pip install Pillow
 </ul>
 
 ## Direct Prediction
-If you want to just predict on two images, just skip all the steps and download the model-face.json, model-face.h5 and predict.py in the same folder. Then enter the path of the two images in the predict.py code and then run the code. The output will be printed telling whether it is a match or not with the confidence score.
+If you want to just predict on two images, just skip all the steps and download the model-siam.json, model-siam.h5 and predict.py in the same folder. Then enter the path of the two images in the predict.py code and then run the code. The output will be printed telling whether it is a match or not with the confidence score.
 ## How Semantic Segmentation or FCNs are used in Autonomous Vehicles
 Please refer my write up which I have uploaded as Semantic Segmentation.docx for how Semantic Segmentation or FCNs are used in Autonomous Vehicles.
