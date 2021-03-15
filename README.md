@@ -17,7 +17,7 @@ pip install Pillow
     
 ```python face_extract.py trainset```
 
-<br> This will output a folder named Faces which contain folders each containing faces of that person.</li>
+This will output a folder named Faces which contain folders each containing faces of that person.</li>
   <li> Then we have to process the data and have to make image pairs and its corresponding label and save them.<br>
     For this run:-
   
